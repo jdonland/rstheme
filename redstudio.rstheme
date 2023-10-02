@@ -104,11 +104,13 @@
   background-color: #21222c;
 }
 
+/* keywords: if, else, function, etc. */
 .ace_keyword {
   font-style: normal;
-  color: #ADB5CB;
+  color: #657AA3;
 }
 
+/* operators: +, -, *, /, =, <, >, !, &, |, ->, |>, etc. */
 .ace_keyword.ace_operator {
   font-style: normal;
   color: #FF0000;
@@ -123,6 +125,7 @@
   color: #DC2828;
 }
 
+/* numbers */
 .ace_constant.ace_numeric {
   color: #DC2828;
 }
@@ -135,6 +138,7 @@
   color: #F8F8F2;
 }
 
+/* function names */
 .ace_support.ace_function {
   color: #ADB5CB;
 }
@@ -172,12 +176,14 @@
   background-color: rgba(189, 147, 249, 0.5);
 }
 
+/* strings */
 .ace_string {
-  color: #657AA3;
+  color: #ADB5CB;
 }
 
+/* comments and chunk options */
 .ace_comment {
-  color: #444444;
+  color: #4E5C68;
 }
 
 .ace_invisible {
